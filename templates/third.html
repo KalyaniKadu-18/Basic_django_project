@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block title %}
+Third page
+{% endblock title %}
+
+{% block content %}
+    <h1>Third page extends with same navbar</h1>
+    <h1>{{ var }}</h1>
+    <h1>{{ msg }}</h1>
+
+    <ul>
+        {% for i in myfruits %}
+            <li>{{ i }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
