@@ -34,3 +34,9 @@ def demothird(request):
         "myfruits":fruits
     }
     return render(request,'third.html',context=mydictionary)
+
+def image(request):
+    return render(request,'image.html')
+
+def form(request):
+    return render(request, 'form.html')

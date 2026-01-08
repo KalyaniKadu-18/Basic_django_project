@@ -8,6 +8,9 @@ urlpatterns = [
     path('intro/<str:name>/<int:age>',views.intro,name="intro"),
     path('demo',views.demo , name="demo"),
     path('demosecond',views.demosecond,name="demosecond"),
-    path('demothird',views.demothird,name="demothird")
+    path('demothird',views.demothird,name="demothird"),
+    path('image',views.image,name="image"),
+    path('form',views.form,name="form")
+
 ]
 
